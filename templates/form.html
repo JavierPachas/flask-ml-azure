@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>California Housing Predictor</title>
+</head>
+<body>
+    <h2>California Housing Predictor</h2>
+    <form action="/predict_form" method="post">
+        {% for feature in features %}
+            <label for="{{ feature }}">{{ feature }}:</label>
+            <input type="text" name="{{ feature }}" required><br><br>
+        {% endfor %}
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
