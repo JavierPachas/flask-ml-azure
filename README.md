@@ -13,8 +13,8 @@ Deploy Flask Machine Learning Application on Azure App Services
 1.  Create virtual environment and source
 
 ```bash
-python3 -m venv ~/.flask-ml-azure
-source ~/.flask-ml-azure/bin/activate
+python3 -m venv ~/.flask-ml-azure38
+source ~/.flask-ml-azure38/bin/activate
 ```
 
 2.  Run `make install`
